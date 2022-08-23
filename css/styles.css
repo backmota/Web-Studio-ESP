@@ -1,18 +1,76 @@
-body {
-  font-family: sans-serif;
-  font-size: 20px;
+a{
+	text-decoration: none;
+	color: #212121;;
 }
 
-table {
-  border-collapse: collapse;
+p {
+	color: #757575;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
 }
 
-table th,
-table td {
-  padding: 10px;
-  border: 1px solid #2a2a2a;
+
+
+nav{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121;
 }
 
-.accent{
-  color: blue;
+.link{
+	text-decoration: none;
+	color: #212121;
+}
+
+.link:hover{
+	color: #2196F3;
+}
+
+.link:active{
+	color: darkred;
+}
+
+.link:visited{
+	color: darkred;
+}
+
+.over:focus{
+	color: orange;
+}
+
+
+
+.menu {
+
+}
+
+.menu > li {
+	  border: 1px solid tomato;
+}
+
+.submenu > li {
+	 border: 1px solid blue;
+}
+
+.alert {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.success{
+	color: green;
+}
+
+.warning{
+	color: orange;
+}
+
+.error{
+	color: red;
 }
