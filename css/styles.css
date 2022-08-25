@@ -82,23 +82,20 @@ nav{
 	 border: 1px solid blue;
 }
 
+
 .alert {
-	font-size: 24px;
-	font-weight: 500;
+  --alert-text-color: black;
+
+  color: var(--alert-text-color);
 }
 
-.success{
-	color: green;
+.alert.success {
+  --alert-text-color: green;
 }
 
-.warning{
-	color: orange;
+.alert.warning {
+  --alert-text-color: orange;
 }
 
-.error{
-	color: red;
-}
-
-#article-1{
-	font-size: 24px;
-}
+.alert.error {
+  --ale
