@@ -3,7 +3,7 @@ h1{
 }
 
 .menu{
-	text-transform: none;
+	text-transform:none;
 }
 
 .menu2{
@@ -51,7 +51,7 @@ h1{
 }
 
 .text > span::selection {
-	color: #ffffff;
+	color: #9d1616;
 	background-color: black;
 }
 
